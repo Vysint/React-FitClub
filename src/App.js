@@ -1,11 +1,12 @@
+import Hero from "./components/Hero";
+import "./App.css";
 
-import './App.css';
 
 function App() {
   return (
-   <div>
-    <h3>FitClub</h3>
-   </div>
+    <div className="App">
+      <Hero />
+    </div>
   );
 }
 
