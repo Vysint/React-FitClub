@@ -21,7 +21,7 @@ const Plans = () => {
             <span>${plan.price}</span>
             <div className="features">
               {plan.features.map((feature, index) => (
-                <div className="feature">
+                <div className="feature" key = {index}>
                   <img src={whiteTick} alt="" />
                   <span key={index}>{feature}</span>
                 </div>
